@@ -1,0 +1,32 @@
+{
+  "name": "rest-shop",
+  "version": "1.0.0",
+  "description": "A Shop Node.js RESTful API Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaggudeep/node-rest-shop.git"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api"
+  ],
+  "author": "Gagandeep Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaggudeep/node-rest-shop/issues"
+  },
+  "homepage": "https://github.com/gaggudeep/node-rest-shop#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
